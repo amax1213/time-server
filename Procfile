@@ -1,1 +1,1 @@
-web: python time-server.py
+web: python main.py
