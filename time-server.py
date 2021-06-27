@@ -1,4 +1,3 @@
-from flask.wrappers import Response
 import requests
 import os
 from flask import Flask
@@ -18,3 +17,4 @@ def get_time():
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 6738))
     app.run(host="127.0.0.1", port=port)
+
